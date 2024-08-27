@@ -1,0 +1,30 @@
+.carousel-inner{
+    padding: 10px 10px 30px 10px;
+}
+.row, .row-cols-1, .row-cols-md-2{
+    padding: 10px 10px 30px 10px; 
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-izquierda, .lista-derecha {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pie-pagina{
+    flex: 1; /* Hace que cada pie de página ocupe el mismo espacio */
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+/* *{
+    margin: 50px;
+  } */
